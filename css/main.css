@@ -1,0 +1,238 @@
+/*-------- BASIC SETUP --------*/
+
+:root {
+    --green: #04BF45;
+    --gray: #333140;
+    --blue: #D5E5F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: black;
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    text-rendering: optimizelegibility;
+}
+
+.row {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    padding: 20px 0;
+    background-image: linear-gradient(var(--blue),var(--blue));
+    background-position: 0 450px;
+    background-repeat: no-repeat;
+}
+
+/*-------- MAIN NAV --------*/
+
+.first-row {
+    position: relative;
+}
+
+svg {
+    width: 46px;
+    height: 46px;
+    fill: var(--green);
+    vertical-align: middle;
+}
+
+.m-icon {
+    margin: 0 5px 0 0;
+}
+
+.br-txt {
+    color: var(--green);
+}
+
+.h-nav {
+    position: absolute;
+    list-style: none;
+    top: 8px;
+    right: 420px;
+}
+
+.h-nav li {
+    display: inline-block;
+    margin: 0 50px 0 0;
+}
+
+.th {
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    background-color: rgba(4, 191, 69, 0.116);
+    padding: 10px 20px;
+    right: 160px;
+    text-align: center;
+    border-radius: 25px 0 0 20px;
+}
+
+.msg {
+    position: absolute;
+    right: 10px;
+    width: 170px;
+    color: #ffffff;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.icon-t {
+    color: var(--green);
+    margin: 0 2px 0 0;
+}
+
+.icon-a{
+    margin: 0 0 0 30px;
+}
+
+/*-------- MAIN FEATURE --------*/
+
+.m-feature {
+    position: relative;
+    width: 90%;
+    height: 75%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.144)), url(./img/pc-components.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin: 40px auto 0 auto;
+    border-radius: 15px;
+}
+
+.feature-p {
+    position: absolute;
+    font-size: 500%;
+    font-weight: bold;
+    line-height: 100%;
+    color: #fff;
+    left: 160px;
+    top: 80px;
+}
+
+.s-txt {
+    color: var(--green);
+}
+
+a {
+    text-decoration: none;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+
+.ln1 {
+    color: #fff;
+    left: 160px;
+    top: 350px;
+    width: 170px;
+    color: #ffffff;
+    background-color: var(--green);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.ln2 {
+    color: #fff;
+    left: 350px;
+    top: 350px;
+    width: 170px;
+    color: var(--gray);
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+/*-------- STEPS --------*/
+
+.steps {
+    position: absolute;
+    left: 370px;
+    bottom: 50px;
+    list-style: none;
+    width: 55%;
+    height: 180px;
+    background-color: #000;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.steps li {
+    display: inline-block;
+    padding: 12px 10px 0 10px;
+    color: #fff;
+    font-size: 13px;
+    margin: 15px 28px 0 28px;
+}
+
+.desc {
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    line-height: 130%;
+}
+
+.stp {
+    position: relative;
+    top: 19px;
+    color: #646464;
+}
+
+.nms1 {
+    display: inline-block;
+    position: absolute;
+    font-size: 10px;
+    background-color: #fff;
+    padding: 2px 8px;
+    border-radius: 50%;
+    left: 417px;
+    bottom: 40px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.nms2 {
+    display: inline-block;
+    position: absolute;
+    font-size: 10px;
+    background-color: #fff;
+    padding: 2px 8px;
+    border-radius: 50%;
+    left: 605px;
+    bottom: 40px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.nms3 {
+    display: inline-block;
+    position: absolute;
+    font-size: 10px;
+    background-color: #fff;
+    padding: 2px 8px;
+    border-radius: 50%;
+    left: 830px;
+    bottom: 40px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.nms4 {
+    display: inline-block;
+    position: absolute;
+    font-size: 10px;
+    background-color: #fff;
+    padding: 2px 8px;
+    border-radius: 50%;
+    left: 1060px;
+    bottom: 40px;
+    box-shadow: 1px 1px 10px #000;
+}
